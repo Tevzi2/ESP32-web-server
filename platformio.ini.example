@@ -13,7 +13,7 @@ platform = espressif32
 board = lolin_d32
 framework = arduino
 monitor_speed = 115200
-
+extra_scripts = pre:read_page.py
 build_flags=;build flags
     -'DU_SSID="YOUR_WIFI_SSID"' ; replace YOUR_WIFI_SSID with SSID/name of your WiFi
     -'DU_PASSWORD="YOUR_WIFI_PASSWORD"' ; replace YOUR_WIFI_PASSWORD with the password fo your WiFi
